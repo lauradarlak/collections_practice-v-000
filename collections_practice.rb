@@ -53,7 +53,8 @@ def add_s(s_ary)
     if s_ary[1] == element
       element
     else
-      element.insert(-1, "s")
+      # element.insert(-1, "s")
+      element + "s"
     end
   end
 end
