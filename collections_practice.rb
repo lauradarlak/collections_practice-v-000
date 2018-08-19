@@ -55,6 +55,7 @@ def add_s(s_ary)
     else
       element.insert(-1, "s")
     end
+  end
 end
 
 # unless s_ary[1]
