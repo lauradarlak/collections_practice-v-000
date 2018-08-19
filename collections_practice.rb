@@ -50,7 +50,9 @@ end
 
 def add_s(s_ary)
   s_ary.collect do |element|
-    if !s_ary[1]
+    if s_ary[1] == element
+      element
+    else
       element.insert(-1, "s")
     end
 end
